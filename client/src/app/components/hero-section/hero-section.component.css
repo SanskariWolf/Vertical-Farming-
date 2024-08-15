@@ -1,0 +1,117 @@
+/* Ensure the hero section takes full width of the viewport */
+.hero {
+    width: 100%;
+    height: 776px;
+    position: relative;
+    background: #EDEBDF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  
+  /* Background container */
+  .hero-background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #EDEBDF;
+  }
+  
+  /* Container for hero content */
+  .hero-content {
+    width: 1340px;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    box-sizing: border-box;
+  }
+  
+  /* Image container */
+  .hero-image-container {
+    width: 585px;
+    height: 100%;
+    position: relative;
+  }
+  
+  /* Move background shape to the right */
+  .hero-background-shape {
+    width: 350px;
+    height: 100%;
+    position: absolute;
+    background: #99B83C;
+    border-top-left-radius: 1000px;
+    top: 0;
+    right: 0; /* Move to the right side */
+  }
+  
+  /* Hero image styling */
+  .hero-image {
+    width: 546px;
+    height: 630px;
+    position: absolute;
+    transform: rotateY(180deg);
+    transform-origin: 0 0;
+    top: 146px;
+    right: -400px;
+  }
+  
+  /* Text container */
+  .hero-text-container {
+    width: 823px;
+    height: 435px;
+    position: relative;
+  }
+  
+  /* Heading text styling */
+  .hero-heading {
+    text-align: center;
+    color: black;
+    font-size: 64px;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+  
+  .hero-heading .highlight {
+    font-size: 96px;
+    display: block;
+  }
+  
+  /* Subheading text styling */
+  .hero-subheading {
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+  
+  /* Button styling */
+  .hero-button {
+    width: 200px;
+    height: 60px;
+    background: #659833;
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 375px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .hero-button span {
+    color: #EDEBDF;
+    font-size: 20px;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+  }
+  

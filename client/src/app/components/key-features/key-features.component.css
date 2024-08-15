@@ -1,0 +1,113 @@
+/* Ensure the key features section takes full width of the viewport */
+.key-features {
+    width: 100%;
+    height: 2200px;
+    position: relative;
+    background: #EDEBDF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  
+  /* Container for key features content */
+  .key-features-content {
+    width: 1313px;
+    height: 1650px;
+    position: relative;
+    box-sizing: border-box;
+  }
+  
+  /* Title text styling */
+  .key-features-title {
+    text-align: center;
+    color: black;
+    font-size: 64px;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    margin-bottom: 100px;
+  }
+  
+  /* Container for feature details */
+  .key-features-details {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  
+  /* Individual feature styling */
+  .feature {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-bottom: 100px;
+    gap: 100px;
+  }
+  
+  .feature-image {
+    width: 459px;
+    height: 459px;
+    object-fit: cover;
+  }
+  
+  .feature-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 20px;
+    text-align: right;
+  }
+  
+  .feature-title {
+    color: black;
+    font-size: 40px;
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+  }
+  
+  .feature-description {
+    color: black;
+    font-size: 40px;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .key-features-content {
+      width: 100%;
+      padding: 20px;
+    }
+  
+    .key-features-title {
+      font-size: 48px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  
+    .feature {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .feature-text {
+      padding: 20px;
+      text-align: center;
+    }
+  
+    .feature-title {
+      font-size: 36px;
+    }
+  
+    .feature-description {
+      font-size: 24px;
+    }
+  
+    .feature-image {
+      width: 100%;
+      height: auto;
+    }
+  }
+  

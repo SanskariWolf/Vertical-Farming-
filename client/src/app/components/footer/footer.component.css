@@ -1,0 +1,105 @@
+/* Ensure the footer takes full width of the viewport */
+.footer {
+    width: 100%;
+    height: 396px;
+    position: relative;
+    background: #99B83C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  
+  /* Background container */
+  .footer-background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #99B83C;
+  }
+  
+  /* Container for footer content */
+  .footer-content {
+    width: 1220px;
+    height: 183px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Contact section */
+  .footer-contact {
+    width: 354px;
+    height: 96px;
+    position: relative;
+  }
+  
+  .contact-background {
+    width: 354px;
+    height: 96px;
+    background: #EDEBDF;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .contact-text {
+    color: black;
+    font-size: 32px;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+  }
+  
+  /* Text section */
+  .footer-text {
+    width: 755px;
+    height: 163px;
+    position: relative;
+  }
+  
+  .footer-heading {
+    color: #EDEBDF;
+    font-size: 48px;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 20px;
+  }
+  
+  .footer-subheading {
+    color: #F1D73A;
+    font-size: 32px;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .footer-content {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .footer-contact {
+      margin-bottom: 20px;
+    }
+  
+    .footer-heading {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+  
+    .footer-subheading {
+      font-size: 24px;
+    }
+  
+    .contact-text {
+      font-size: 28px;
+    }
+  }
+  
